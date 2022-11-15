@@ -7,7 +7,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "capacitor:sync:after": "apt-get install gettext-base && sh serverurl.sh",
+    "capacitor:sync:after": "sudo apt-get -y install jq gettext && sh serverurl.sh",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

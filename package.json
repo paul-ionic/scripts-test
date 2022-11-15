@@ -6,8 +6,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "prebuild": "apt-get update && apt-get -y install jq gettext && sh serverurl.sh",
     "build": "ng build",
-    "capacitor:sync:after": "apt-get update && apt-get -y install jq gettext && sh serverurl.sh",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

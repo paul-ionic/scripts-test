@@ -6,7 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
-  constructor() {}
-
+    serverUrl = process.env.NG_APP_SERVER_URL;
 }
